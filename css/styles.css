@@ -1,0 +1,211 @@
+:root {
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primery-text-color);
+}
+/* <======================COMPONENTS==========================> */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.acsent-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--accent-color);
+}
+.contact-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primery-text-color);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.contact-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primery-text-color);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+/* <======================/COMPONENTS==========================> */
+/* <======================HEADER==========================> */
+.portfolio-btn {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+}
+.caption-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.basic-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* <======================/HEADER==========================>  */
+/* <======================HERO==========================> */
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--background-color);
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* margin: auto;
+display: block; */
+  cursor: pointer;
+  letter-spacing: 0.06em;
+
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* <======================/HERO==========================> */
+/* <======================Benefits==========================> */
+.topic {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+.rubric {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* .doing{
+    display: flex;
+}
+.img-doing{
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+} */
+
+/* <======================/Benefits==========================> */
+/* <======================STUDIES==========================> */
+.stud-top {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+/* <======================/STUDIES==========================> */
+/* <======================TEAMS==========================> */
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.team-prof {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* <=======================/TEAM=========================> */
+/* <======================FOOTER==========================> */
+.maps {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--background-color);
+}
+.maps:hover,
+.maps:focus {
+  color: #2196f3;
+}
+.foot {
+  background: #2f303a;
+}
+/* <======================/FOOTER==========================> */
